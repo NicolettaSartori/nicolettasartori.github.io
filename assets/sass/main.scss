@@ -50,6 +50,31 @@ $background-image : url('../../images/background/red.png');
 	}
 
 
+	.profil {
+		object-fit: cover;
+		width: 100%;
+		margin: auto auto 1em;
+		display: block;
+
+		@include breakpoint('<=narrow') {
+			width: 60%;
+		}
+
+		@include breakpoint('<=mobile') {
+			width: 50%;
+		}
+	}
+
+	.text-center {
+		text-align: center;
+	}
+
+	.padding-small {
+		@include breakpoint('<=mobile') {
+			padding: 35px 0 0 20px !important;
+		}
+	}
+
 
 	*::selection {
 		background: #2d2e47; /* WebKit/Blink Browsers */
@@ -257,10 +282,10 @@ $background-image : url('../../images/background/red.png');
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 51em;
+		width: 80%;
 
 		&.medium {
-			width: (51em * 0.75);
+			width: (80% * 0.75);
 		}
 
 		@include breakpoint('<=normal') {

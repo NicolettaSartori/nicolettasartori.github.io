@@ -25,6 +25,33 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+.profil {
+  object-fit: cover;
+  width: 100%;
+  margin: auto auto 1em;
+  display: block;
+}
+@media screen and (max-width: 980px) {
+  .profil {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 736px) {
+  .profil {
+    width: 50%;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media screen and (max-width: 736px) {
+  .padding-small {
+    padding: 35px 0 0 20px !important;
+  }
+}
+
 *::selection {
   background: #2d2e47;
   /* WebKit/Blink Browsers */
@@ -223,10 +250,10 @@ blockquote {
 .container {
   margin: 0 auto;
   max-width: 100%;
-  width: 51em;
+  width: 80%;
 }
 .container.medium {
-  width: 38.25em;
+  width: 60%;
 }
 @media screen and (max-width: 1280px) {
   .container {
