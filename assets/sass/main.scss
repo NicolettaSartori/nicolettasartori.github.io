@@ -51,13 +51,23 @@ $background-image : url('../../images/background/red.png');
 
 
 
+	*::selection {
+		background: #2d2e47; /* WebKit/Blink Browsers */
+		color: white;
+	}
+	*::-moz-selection {
+		background: #2d2e47; /* Gecko Browsers */
+		color: white;
+	}
+
+
 
 	#header a:hover {
 		color: #2d2e47 !important;
 	}
 
 	#header .logo {
-		background: #69352d;
+		background: #2d2e47;
 	}
 
 
@@ -80,6 +90,7 @@ $background-image : url('../../images/background/red.png');
 	textarea:focus {
 		border-color: #69352d;
 	}
+
 
 
 
@@ -1002,7 +1013,7 @@ $background-image : url('../../images/background/red.png');
 
 		&:before,
 		&:after {
-			background: _palette(border);
+			//background: _palette(border);
 			content: '';
 			left: 50%;
 			position: absolute;

@@ -25,12 +25,24 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+*::selection {
+  background: #2d2e47;
+  /* WebKit/Blink Browsers */
+  color: white;
+}
+
+*::-moz-selection {
+  background: #2d2e47;
+  /* Gecko Browsers */
+  color: white;
+}
+
 #header a:hover {
   color: #2d2e47 !important;
 }
 
 #header .logo {
-  background: #69352d;
+  background: #2d2e47;
 }
 
 #footer {
@@ -2202,7 +2214,6 @@ input[type=button].small,
   text-align: center;
 }
 #header:before, #header:after {
-  background: rgba(224, 224, 224, 0.75);
   content: "";
   left: 50%;
   position: absolute;
