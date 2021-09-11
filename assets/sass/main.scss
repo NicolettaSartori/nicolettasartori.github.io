@@ -7,7 +7,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
-$background-image : url('/static_site/images/background/red.png');
+$background-image : url('../../images/background/red.png');
 
 /*
 /*
@@ -59,6 +59,7 @@ $background-image : url('/static_site/images/background/red.png');
 	#header .logo {
 		background: #69352d;
 	}
+
 
 	#footer {
 		background-color: #69352d !important;
