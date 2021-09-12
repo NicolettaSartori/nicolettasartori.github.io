@@ -7,7 +7,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
-$background-image : url('../../images/background/red.png');
+$background-image : url('../../images/red.png');
 
 /*
 /*
@@ -61,7 +61,31 @@ $background-image : url('../../images/background/red.png');
 		}
 
 		@include breakpoint('<=mobile') {
-			width: 50%;
+			width: 70%;
+		}
+	}
+
+	.mb-2 {
+		margin-bottom: 1.5em !important;
+	}
+	.mt-1 {
+		margin-top: 1.25em;
+	}
+
+	.font-small {
+		font-size: smaller;
+	}
+
+	.color-red {
+		color: #e7391e;
+	}
+
+	.ani-bigger {
+		transition: transform .3s ease;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
 		}
 	}
 
