@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: black;
 }
 .navbar .dropdown ul {
   display: block;
@@ -335,7 +335,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #ff6b6b;
+  background: #e7391e;
+  opacity: 80%;
 }
 #hero .container {
   padding-top: 72px;
@@ -363,10 +364,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #707070;
+  background: #000000;
 }
 #hero .btn-get-started:hover {
-  background: #000000;
+  background: #707070;
 }
 #hero .btn-watch-video {
   font-size: 16px;
